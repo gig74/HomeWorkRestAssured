@@ -12,5 +12,5 @@ public class User {
   private String username;
   private String password;
   private Boolean enabled;
-  private Role[] roles;
+  private List<Role> roles;
 }
